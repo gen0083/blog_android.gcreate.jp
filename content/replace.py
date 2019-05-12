@@ -28,6 +28,9 @@ def replace_tags(src):
     alert_block = re.compile(r'<div id="wppda_alert">.+?</div>')
     lt_code = re.compile(r'&lt;')
     gt_code = re.compile(r'&gt;')
+    amp_code = re.compile(r'&amp;')
+    quote_code = re.compile(r'&quot;')
+    single_quote_code = re.compile(r'&#039;')
 
     def convert_header(m):
         count = int(m.group(1))
@@ -50,6 +53,9 @@ def replace_tags(src):
         dst = alert_block.sub("", dst)
         dst = lt_code.sub("<", dst)
         dst = gt_code.sub(">", dst)
+        dst = quote_code.sub('"', dst)
+        dst = single_quote_code.sub("'", dst)
+        dst = amp_code.sub("&", dst)
         return dst
 
     return replace_source(src)
