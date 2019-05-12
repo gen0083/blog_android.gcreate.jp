@@ -1,0 +1,4 @@
+baseURL = "https://android.gcreate.jp/"
+languageCode = "ja"
+title = "Android Studioでいこう"
+theme = "angels-ladder"
