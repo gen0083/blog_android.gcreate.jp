@@ -25,6 +25,7 @@ def replace_tags(src):
     open_pre_code = re.compile(r'<pre><code>')
     close_pre_code = re.compile(r'</code></pre>')
     inline_code = re.compile(r'<code>(.*)</code>')
+    alert_block = re.compile(r'<div id="wppda_alert>.*</div>')
 
     def convert_header(m):
         count = int(m.group(1))
@@ -44,6 +45,7 @@ def replace_tags(src):
         dst = open_pre_code.sub("\n```\n", dst)
         dst = close_pre_code.sub("```\n", dst)
         dst = inline_code.sub(convert_inline_code_block, dst)
+        dst = alert_block.sub("", dst)
         return dst
 
     return replace_source(src)
