@@ -19,13 +19,13 @@ def collect_md_files(file):
 def replace_tags(src):
     open_p = re.compile(r'<p>')
     close_p = re.compile(r'</p>')
-    tag_header = re.compile(r'<h(\d).*>(.+)</h\d>')
+    tag_header = re.compile(r'<h(\d).*>(.+?)</h\d>')
     tag_break = re.compile(r'<br.*>')
     rename_cover_image = re.compile(r'cover_image:')
     open_pre_code = re.compile(r'<pre><code>')
     close_pre_code = re.compile(r'</code></pre>')
-    inline_code = re.compile(r'<code>(.*)</code>')
-    alert_block = re.compile(r'<div id="wppda_alert>.*</div>')
+    inline_code = re.compile(r'<code>(.+?)</code>')
+    alert_block = re.compile(r'<div id="wppda_alert">.+?</div>')
 
     def convert_header(m):
         count = int(m.group(1))
