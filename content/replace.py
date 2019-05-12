@@ -1,6 +1,7 @@
 import os
 import re
 
+make_directry_which_has_images = False
 stack = []
 
 
@@ -69,6 +70,7 @@ for file in file_list:
 
 # work on each file
 print("stack size: ", len(stack))
+image_tag = re.compile(r'<img src="https://android\.gcreate\.jp/')
 for file in stack:
     file_path = os.path.abspath(file)
     print("stack: ", file_path)
@@ -78,6 +80,11 @@ for file in stack:
         after = replace_tags(src)
         # end replace
         f.close()
+        if make_directry_which_has_images:
+            has_image = image_tag.search(src)
+            if has_image:
+                dir_name, ext = os.path.splitext(file_path)
+                os.mkdir(dir_name)
     with open(file_path, mode="w") as f:
         f.write(after)
         f.close()
