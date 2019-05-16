@@ -7,7 +7,14 @@ theme = "angels-ladder"
     post = "/:slug/"
 
 [params]
-    dateFormat = "2006-01-02"
+dateFormat = "2006-01-02"
+subtitle = "I would like to be a layer 3 switch."
+twitter = "https://twitter.com/gen0083"
+github = "https://github.com/gen0083"
+showsRSS = true
+profile = "/images/profile.jpg"
+copyright = "copyright gen0083"
 
 [frontmatter]
-    lastmod = ["lastmod", ":fileModTime", "date"]
+date = ["date", ":fileModTime"]
+lastmod = ["lastmod", ":fileModTime", "date"]
