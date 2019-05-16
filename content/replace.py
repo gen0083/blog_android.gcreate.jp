@@ -32,6 +32,8 @@ def replace_tags(src):
     amp_code = re.compile(r'&amp;')
     quote_code = re.compile(r'&quot;')
     single_quote_code = re.compile(r'&#039;')
+    local_image = re.compile(
+        r'<img src="https://android.gcreate.jp/wp-content/uploads/.+/(.+)\.(jpg|png|gif)".*alt="(.+?)".*/>')
 
     def convert_header(m):
         count = int(m.group(1))
@@ -41,6 +43,12 @@ def replace_tags(src):
     def convert_inline_code_block(m):
         body = m.group(1)
         return "`" + body + "`"
+
+    def convert_local_image_tag(m):
+        file_name = m.group(1)
+        file_ext = m.group(2)
+        alt_text = m.group(3)
+        return f'![{alt_text}]({file_name}.{file_ext})'
 
     def replace_source(source):
         dst = open_p.sub("", source)
@@ -57,6 +65,7 @@ def replace_tags(src):
         dst = quote_code.sub('"', dst)
         dst = single_quote_code.sub("'", dst)
         dst = amp_code.sub("&", dst)
+        dst = local_image.sub(convert_local_image_tag, dst)
         return dst
 
     return replace_source(src)
