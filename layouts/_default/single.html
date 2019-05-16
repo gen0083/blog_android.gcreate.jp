@@ -6,7 +6,7 @@
     <div class="article-header">
         <h1>{{ .Title }}</h1>
         <div class="meta">
-            {{ .Date.Format .Site.Params.dateFormat }} &nbsp;
+            Last Update: {{ .Lastmod.Format .Site.Params.dateFormat }}
         </div>
         {{- with .Params.tags -}}
             <div class="mdc-chip-set">
@@ -40,13 +40,13 @@
 </main>
 
 <nav class="pagination-single">
-    {{ if .Next }}
-        <span class="next"><a href="{{ .Next.Permalink }}"
-                              rel="next">{{ .Next.Title }}</a> &rarr;</span>
+    {{ if .NextPage }}
+        <span class="previous">&larr; <a href="{{ .NextPage.Permalink }}"
+                                         rel="prev">{{ .NextPage.Title }}</a></span>
     {{ end }}
-    {{ if .Prev }}
-        <span class="prev">&larr; <a href="{{ .Prev.Permalink }}"
-                                     rel="prev">{{ .Prev.Title }}</a></span>
+    {{ if .PrevPage }}
+        <span class="next"><a href="{{ .PrevPage.Permalink }}"
+                              rel="next">{{ .PrevPage.Title }}</a> &rarr;</span>
     {{ end }}
 </nav>
 
