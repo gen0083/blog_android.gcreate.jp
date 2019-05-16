@@ -7,10 +7,18 @@
         <h1>{{ .Title }}</h1>
         <div class="meta">
             {{ .Date.Format .Site.Params.dateFormat }} &nbsp;
-            {{ range .Params.tags }}
-                #<a href="/tags/{{ . | urlize }}">{{ . }}</a>&nbsp;
-            {{ end }}
         </div>
+        {{- with .Params.tags -}}
+            <div class="mdc-chip-set">
+                {{ range . }}
+                    <div class="mdc-chip">
+                        <div class="mdc-chip__text">
+                            <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+                        </div>
+                    </div>
+                {{ end }}
+            </div>
+        {{- end -}}
     </div>
     <article>
         {{ .Content }}
