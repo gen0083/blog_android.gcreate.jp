@@ -6,7 +6,7 @@
     <div class="article-header">
         <h1>{{ .Title }}</h1>
         <div class="meta">
-            {{ .Date.Format "Jan 2, 2006" }} &nbsp;
+            {{ .Date.Format .Site.Params.dateFormat }} &nbsp;
             {{ range .Params.tags }}
                 #<a href="/tags/{{ . | urlize }}">{{ . }}</a>&nbsp;
             {{ end }}

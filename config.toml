@@ -5,3 +5,6 @@ theme = "angels-ladder"
 
 [permalinks]
     post = "/:slug/"
+
+[params]
+    dateFormat = "2006-01-02"
