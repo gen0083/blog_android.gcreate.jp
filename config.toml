@@ -16,5 +16,5 @@ profile = "/images/profile.jpg"
 copyright = "copyright gen0083"
 
 [frontmatter]
-date = ["date", ":fileModTime"]
+date = ["date","publishDate", ":fileModTime"]
 lastmod = ["lastmod", ":fileModTime", "date"]
