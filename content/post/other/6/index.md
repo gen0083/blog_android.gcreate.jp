@@ -3,7 +3,11 @@ title: "Android Studio 0.8.5がリリースされました"
 slug: 6
 date: 2014-08-08
 lastmod: 2014-09-18
-tags: 
+tags:
+    - "Android Studio"
+    - "Update Info"
+    - tools
+    - Android
 ---
 
 Android Studio0.8.5がリリースされています。
