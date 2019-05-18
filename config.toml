@@ -9,7 +9,7 @@ theme = "angels-ladder"
 
 [params]
 dateFormat = "2006-01-02"
-subtitle = "I would like to be a layer 3 switch."
+subtitle = "主にAndroidについての備忘録"
 twitter = "https://twitter.com/gen0083"
 github = "https://github.com/gen0083"
 showsRSS = true
