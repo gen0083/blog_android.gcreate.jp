@@ -1,4 +1,5 @@
-baseURL = "https://android.gcreate.jp/"
+# TODO: replace to real URL
+baseURL = "https://test-android.gcreate.jp/"
 languageCode = "ja"
 title = "Android Studioでいこう"
 theme = "angels-ladder"
