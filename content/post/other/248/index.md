@@ -3,7 +3,9 @@ title: "カスタムフォトウォッチ"
 slug: 248
 date: 2015-04-14
 lastmod: 2016-02-05
-tags: 
+tags:
+    - マイアプリ
+    - wear
 ---
 
 ![カスタムフォトウォッチ](b7c46e339d4a9e16ca42eab8bd987391.jpg)

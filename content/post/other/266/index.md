@@ -3,7 +3,9 @@ title: "Android StudioでLogcatをフィルタリングする"
 slug: 266
 date: 2015-05-01
 lastmod: 2015-05-01
-tags: 
+tags:
+    - "Android Studio"
+    - debug
 ---
 
 Logcatでアプリのデバッグをする際に、自分のアプリからのログ出力だけ見たいなんてときありますよね。

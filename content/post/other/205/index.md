@@ -3,7 +3,9 @@ title: "Android StudioでLogcatが表示されず、何が原因でアプリが�
 slug: 205
 date: 2015-02-09
 lastmod: 2015-02-09
-tags: 
+tags:
+    - "Android Studio"
+    - debug
 ---
 
 Android Studioでデバッグ実行を行った際に、起動直後にアプリが終了してしまう症状に悩まされました。通常ならLogcatが表示されるはずなのに、それすら表示されなかったため、何が原因で落ちてるのかすら分かりませんでした。

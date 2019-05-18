@@ -3,7 +3,8 @@ title: "Android Support LibraryのソースコードをGrepCodeを使って確�
 slug: 168
 date: 2014-12-20
 lastmod: 2014-12-20
-tags: 
+tags:
+    - Android
 ---
 
 Android Support LibraryのソースコードはAndroid Studioで確認することができません

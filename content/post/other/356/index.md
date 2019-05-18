@@ -3,7 +3,8 @@ title: "Android Studio2.2でProject Windowのパッケージ名表示が省略�
 slug: 356
 date: 2016-10-03
 lastmod: 2016-10-08
-tags: 
+tags:
+    - "Android Studio"
 ---
 
 タイトルが分かりにくいんですが、こちらの画像をご覧ください。

@@ -3,7 +3,10 @@ title: "Android StudioでJunit4によるテストを走らせる"
 slug: 279
 date: 2015-05-09
 lastmod: 2015-05-09
-tags: 
+tags:
+    - Android
+    - テスト
+    - "Android Studio"
 ---
 
 基本的には<a href="http://tools.android.com/tech-docs/unit-testing-support">ここ</a>に書いてあるとおりにやればいいだけの話です。

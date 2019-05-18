@@ -3,7 +3,8 @@ title: "Android Studio 1.0正式版がリリースされています"
 slug: 154
 date: 2014-12-09
 lastmod: 2014-12-09
-tags: 
+tags:
+    - "Android Studio"
 ---
 
 Android Studio 1.0が正式版になりました。

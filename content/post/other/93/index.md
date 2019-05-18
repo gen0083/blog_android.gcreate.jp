@@ -5,6 +5,7 @@ date: 2014-09-24
 lastmod: 2014-09-24
 tags: 
     - プラグイン
+    - "Android Studio"
 ---
 
 Android StudioにはVimプラグインがあり、これを導入することでVimキーバインドでの入力が可能になります。

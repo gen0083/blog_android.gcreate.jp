@@ -3,7 +3,9 @@ title: "Espressoを使ってUIテストを書いてみた"
 slug: 276
 date: 2015-05-08
 lastmod: 2015-05-08
-tags: 
+tags:
+    - Android
+    - テスト
 ---
 
 Android Studio 1.2でEspresso2.1を使ったUIテストをやってみました。

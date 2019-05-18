@@ -3,7 +3,9 @@ title: "Android Studioの便利なところ〜Gradleが便利〜"
 slug: 41
 date: 2014-09-05
 lastmod: 2014-09-18
-tags: 
+tags:
+    - Gradle
+    - "Android Studio"
 ---
 
 Android Studioは、Gradleが便利だとよく言われています。

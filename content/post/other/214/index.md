@@ -3,7 +3,10 @@ title: "Wear端末をパソコンに接続し、Android Studioでデバッグで
 slug: 214
 date: 2015-02-16
 lastmod: 2015-02-22
-tags: 
+tags:
+    - "Android Studio"
+    - wear
+    - debug
 ---
 
 せっかくAndroid Wear端末を手に入れたのだから、Wearアプリも作ってみようかなと思いましたが、Wear端末をAndroid Studioに認識させるのも一苦労です。

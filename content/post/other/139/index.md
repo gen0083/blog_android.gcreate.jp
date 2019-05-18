@@ -4,7 +4,8 @@ slug: 139
 date: 2014-10-30
 lastmod: 2014-10-30
 tags: 
-    - ユニットテスト
+    - テスト
+    - "Android Studio"
 ---
 
 Android StudioでJunit4を使ったテストを実行する方法は、今のところ2通りあるみたいです。

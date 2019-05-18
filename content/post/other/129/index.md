@@ -3,7 +3,9 @@ title: "Android StudioでJDKのパスを指定する"
 slug: 129
 date: 2014-10-26
 lastmod: 2014-10-26
-tags: 
+tags:
+    - "Android Studio"
+    - 設定
 ---
 
 久しぶりにAndroid Studioでサンプルアプリを作ろうとしたら、JDK7を使えと怒られてしまいました。

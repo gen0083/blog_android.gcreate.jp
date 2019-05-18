@@ -3,7 +3,8 @@ title: "Android Studioで新規プロジェクト作成時のテンプレート�
 slug: 175
 date: 2015-01-10
 lastmod: 2015-01-18
-tags: 
+tags:
+    - "Android Studio"
 ---
 
 <a href="http://qiita.com/kgmyshin/items/9c803a21451e603531f0">【Android】もっと先へ「加速」したくはないか、少年 〜Project Template編〜</a>を見て、実際に自分でも試してみました。

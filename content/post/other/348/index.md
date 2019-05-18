@@ -3,7 +3,9 @@ title: "リアルタイムで心拍数を計測できるHeart Rate Monitor Wear�
 slug: 348
 date: 2016-07-30
 lastmod: 2016-07-30
-tags: 
+tags:
+    - マイアプリ
+    - wear
 ---
 
 リアルタイムで心拍数を計測・表示するAndroid Wearアプリをリリースしました。

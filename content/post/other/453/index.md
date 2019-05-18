@@ -3,7 +3,9 @@ title: "flutterやるならぜひ登録しておきたいLive Template"
 slug: 453
 date: 2018-03-24
 lastmod: 2018-03-24
-tags: 
+tags:
+    - flutter
+    - "Android Studio"
 ---
 
 Flutterを触り始めたのだが、とにかくWidgetのレイアウト変更がツライと感じていた。

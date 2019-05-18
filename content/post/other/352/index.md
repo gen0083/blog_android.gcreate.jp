@@ -3,7 +3,9 @@ title: "Android Studio2.2でレイアウトエディタを開いた際にTextで
 slug: 352
 date: 2016-09-28
 lastmod: 2016-09-28
-tags: 
+tags:
+    - "Android Studio"
+    - 設定
 ---
 
 layout.xmlを開いた際に、デフォルトではDesignタブで開かれると思います。これをTextに変更する方法です。

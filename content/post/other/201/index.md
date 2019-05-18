@@ -3,7 +3,8 @@ title: "Android Studioをインストールする（Windows 8.1 64bit）"
 slug: 201
 date: 2015-02-05
 lastmod: 2015-02-05
-tags: 
+tags:
+    - "Android Studio"
 ---
 
 Android Studioをダウンロードしてきてインストーラーを起動してインストールします。

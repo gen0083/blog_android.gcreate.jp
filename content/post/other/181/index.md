@@ -3,7 +3,9 @@ title: "Android5.0の端末をUSBデバッグできるようにする"
 slug: 181
 date: 2015-01-17
 lastmod: 2015-01-17
-tags: 
+tags:
+    - Android
+    - debug
 ---
 
 Nexus5（Android5.0.1）を購入したのですが、そのままではUSBデバッグができなくて困りました。

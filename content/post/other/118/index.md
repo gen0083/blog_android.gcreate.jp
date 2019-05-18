@@ -3,7 +3,8 @@ title: "Android Studio 0.8.12がリリースされています"
 slug: 118
 date: 2014-10-10
 lastmod: 2014-10-10
-tags: 
+tags:
+    - "Android Studio"
 ---
 
 Android Studio 0.8.12がCanary Channelでリリースされています。

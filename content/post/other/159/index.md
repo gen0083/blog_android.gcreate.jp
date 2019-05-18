@@ -3,7 +3,8 @@ title: "Android Studioのプレビュー画面でActionBarが表示されない�
 slug: 159
 date: 2014-12-17
 lastmod: 2014-12-17
-tags: 
+tags:
+    - "Android Studio"
 ---
 
 最近Android Studioを使ってプロジェクトを作った際に、ActionBarが表示されていないことが気になっていました。

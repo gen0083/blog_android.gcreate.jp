@@ -5,9 +5,6 @@ date: 2014-08-08
 lastmod: 2014-09-18
 tags:
     - "Android Studio"
-    - "Update Info"
-    - tools
-    - Android
 ---
 
 Android Studio0.8.5がリリースされています。

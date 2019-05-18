@@ -3,7 +3,9 @@ title: "Android Studio用のプラグインADB Friendlyを作ってみた"
 slug: 333
 date: 2016-04-26
 lastmod: 2016-04-26
-tags: 
+tags:
+    - "Android Studio"
+    - プラグイン
 ---
 
 以前から作ってみたいなぁとは思っていたのですが、このたびやや必要性が増したこともあってAndroid Studio用のプラグインを作りました。

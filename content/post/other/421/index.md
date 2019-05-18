@@ -3,7 +3,9 @@ title: "Adaptive Icon"
 slug: 421
 date: 2018-01-12
 lastmod: 2018-01-12
-tags: 
+tags:
+    - Android
+    - UI
 ---
 
 Adaptive IconをFigmaを使って作ってみた。

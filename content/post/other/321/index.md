@@ -3,7 +3,9 @@ title: "式の即時評価を利用してオブジェクトの状態を調べる
 slug: 321
 date: 2016-02-18
 lastmod: 2016-02-18
-tags: 
+tags:
+    - "Android Studio"
+    - debug
 ---
 
 式の即時評価が便利だよねという話です。

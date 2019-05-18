@@ -5,6 +5,7 @@ date: 2014-10-09
 lastmod: 2014-10-09
 tags: 
     - ショートカット
+    - "Android Studio"
 ---
 
 Android Studioで使われているショートカットキーは、`Preference > Keymap`で確認することができます。

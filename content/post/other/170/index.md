@@ -3,7 +3,9 @@ title: "AnimationDrawable 静止画を使ったアニメーション"
 slug: 170
 date: 2014-12-29
 lastmod: 2014-12-29
-tags: 
+tags:
+    - Android
+    - UI
 ---
 
 静止画像（pngなどの画像リソース）を用意してパラパラ漫画の要領でアニメーションさせるには、AnimationDrawableクラスを利用します。
@@ -26,7 +28,6 @@ tags:
 
 <blockquote>
   Invalid file name: must contain only lowercase letters and digits ([a-z0-9_.])
-
 </blockquote>
 
 ## アニメーション設定のXMLファイル
