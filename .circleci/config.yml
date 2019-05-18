@@ -7,6 +7,11 @@ jobs:
       - image: gen0083/circleci-hugo:1.0
     steps:
       - checkout
+      - run:
+          name: sync submodule
+          command: |
+            git submodule sync
+            git submodule update --init
       - restore_cache:
           keys:
             - node_modules-cache-{{ checksum "package-lock.json" }}
