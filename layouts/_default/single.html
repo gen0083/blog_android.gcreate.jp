@@ -1,53 +1,51 @@
-{{ partial "header.html" . }}
+{{ define "main"}}
 
-<!-- Main Section Layout
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<main id="single" role="main">
-    <div class="article-header">
-        <h1>{{ .Title }}</h1>
-        <div class="meta">
-            Last Update: {{ .Lastmod.Format .Site.Params.dateFormat }}
-        </div>
-        {{- with .Params.tags -}}
-            <div class="mdc-chip-set">
-                {{ range . }}
-                    <div class="mdc-chip">
-                        <div class="mdc-chip__text">
-                            <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+    {{/* main section layout*/}}
+    <main id="single" role="main">
+        <div class="article-header">
+            <h1>{{ .Title }}</h1>
+            <div class="meta">
+                Last Update: {{ .Lastmod.Format .Site.Params.dateFormat }}
+            </div>
+            {{- with .Params.tags -}}
+                <div class="mdc-chip-set">
+                    {{ range . }}
+                        <div class="mdc-chip">
+                            <div class="mdc-chip__text">
+                                <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+                            </div>
                         </div>
-                    </div>
-                {{ end }}
-            </div>
-        {{- end -}}
-    </div>
-    <article>
-        {{ .Content }}
+                    {{ end }}
+                </div>
+            {{- end -}}
+        </div>
+        <article>
+            {{ .Content }}
 
-        <!-- ShareThis Buttons
-        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        {{ with .Site.Params.shareThis }}
-            <div id="share-this" class="col span_10">
-                <span class='st_twitter_large' displayText='Tweet'></span>
-                <span class='st_facebook_large' displayText='Facebook'></span>
-                <span class='st_googleplus_large' displayText='Google +'></span>
-                <span class='st_pocket_large' displayText='Pocket'></span>
-                <span class='st_sharethis_large' displayText='ShareThis'></span>
-                <span class='st_email_large' displayText='Email'></span>
-            </div>
+            {{/* ShareThis Buttons */}}
+            {{ with .Site.Params.shareThis }}
+                <div id="share-this" class="col span_10">
+                    <span class='st_twitter_large' displayText='Tweet'></span>
+                    <span class='st_facebook_large' displayText='Facebook'></span>
+                    <span class='st_googleplus_large' displayText='Google +'></span>
+                    <span class='st_pocket_large' displayText='Pocket'></span>
+                    <span class='st_sharethis_large' displayText='ShareThis'></span>
+                    <span class='st_email_large' displayText='Email'></span>
+                </div>
+            {{ end }}
+        </article>
+        {{ partial "disqus.html" . }}
+    </main>
+
+    <nav class="pagination-single">
+        {{ if .NextPage }}
+            <span class="previous">&larr; <a href="{{ .NextPage.Permalink }}"
+                                             rel="prev">{{ .NextPage.Title }}</a></span>
         {{ end }}
-    </article>
-    {{ partial "disqus.html" . }}
-</main>
+        {{ if .PrevPage }}
+            <span class="next"><a href="{{ .PrevPage.Permalink }}"
+                                  rel="next">{{ .PrevPage.Title }}</a> &rarr;</span>
+        {{ end }}
+    </nav>
 
-<nav class="pagination-single">
-    {{ if .NextPage }}
-        <span class="previous">&larr; <a href="{{ .NextPage.Permalink }}"
-                                         rel="prev">{{ .NextPage.Title }}</a></span>
-    {{ end }}
-    {{ if .PrevPage }}
-        <span class="next"><a href="{{ .PrevPage.Permalink }}"
-                              rel="next">{{ .PrevPage.Title }}</a> &rarr;</span>
-    {{ end }}
-</nav>
-
-{{ partial "footer.html" . }}
+{{ end }}
