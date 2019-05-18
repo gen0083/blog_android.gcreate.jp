@@ -9,10 +9,10 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - {{ checksum "package-lock.json" }}
+            - node_modules-cache-{{ checksum "package-lock.json" }}
       - run: npm i
       - save_cache:
-          key: {{ checksum "package-lock.json" }}
+          key: node_modules-cache-{{ checksum "package-lock.json" }}
           paths:
             - node_modules/
       - run:
