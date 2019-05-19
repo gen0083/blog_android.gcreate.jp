@@ -88,7 +88,7 @@ Pixel Launcherだとぷるぷるするらしい。
 
 <a href="https://medium.com/google-design/designing-adaptive-icons-515af294c783">Designing Adaptive Icons（各ツールにおけるテンプレートへのリンクあり）</a>
 
-<a href="http://a-student.github.io/SvgToVectorDrawableConverter.Web/">SvgToVectorDrawableConverter.Web（SVGをVector Drawableに変換するツール）</a>
+<a href="https://a-student.github.io/SvgToVectorDrawableConverter.Web/">SvgToVectorDrawableConverter.Web（SVGをVector Drawableに変換するツール）</a>
 
 
   

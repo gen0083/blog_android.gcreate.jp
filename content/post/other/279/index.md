@@ -9,7 +9,7 @@ tags:
     - "Android Studio"
 ---
 
-基本的には<a href="http://tools.android.com/tech-docs/unit-testing-support">ここ</a>に書いてあるとおりにやればいいだけの話です。
+基本的には<a href="https://tools.android.com/tech-docs/unit-testing-support">ここ</a>に書いてあるとおりにやればいいだけの話です。
 
 
 ## 準備

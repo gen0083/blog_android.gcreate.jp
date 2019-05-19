@@ -60,7 +60,7 @@ package ${packageName}.activities;
 
 参考
 
-<a href="http://www.i-programmer.info/projects/215-mobile/6843-custom-projects-in-android-studio.html">Custom Projects In Android Studio</a>
+<a href="https://www.i-programmer.info/projects/215-mobile/6843-custom-projects-in-android-studio.html">Custom Projects In Android Studio</a>
 
 
 ## Android Studioのバージョンアップができない

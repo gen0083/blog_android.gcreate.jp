@@ -25,7 +25,7 @@ JDKをインストールしている場合、JDKの場所を指定してやれ�
 
 OracleのサイトからJDKをダウンロードしてインストールします。
 
-<a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Oracle &#8211; Java SE Downloads</a>
+<a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">Oracle &#8211; Java SE Downloads</a>
 
 JDKは開発ツールが含まれたものになります。JREとは違うので注意してください。
 

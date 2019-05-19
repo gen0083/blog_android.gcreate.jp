@@ -19,7 +19,7 @@ TestRunnerを指定した方法だと、IDEでテストの実行結果が確認�
 
 対してRobolectricを使う場合は、テストの実行結果をブラウザで確認しなければならないというデメリットはありますが、導入方法が比較的簡単です。今回はRobolectricを使ってJunit4によるユニットテストを実施する手順を紹介します。
 
-<a href="http://qiita.com/radiocatz/items/5cde55a29a2141534869">Qiitaのこちらの記事</a>があってようやくまともに入れることができました。感謝感謝。
+<a href="https://qiita.com/radiocatz/items/5cde55a29a2141534869">Qiitaのこちらの記事</a>があってようやくまともに入れることができました。感謝感謝。
 
 
 ## 1. プロジェクトを作成する
@@ -266,7 +266,7 @@ targetSdkVersionを19以上にしていると、`Robolectric does not support AP
 
 API19以上に依存するクラスをテストしたい場合は、Robolectricが対応するのを待つか、それまではRobolectricを使わずにテストするしかないみたいです。
 
-<a href="http://stackoverflow.com/questions/20541630/robolectric-does-not-support-api-level">参考：Stack over flow</a>
+<a href="https://stackoverflow.com/questions/20541630/robolectric-does-not-support-api-level">参考：Stack over flow</a>
 
 
   

@@ -23,7 +23,7 @@ Android Support LibraryのソースコードはAndroid Studioで確認するこ�
 
 サポートライブラリのソースコードを確認するのは、Gitを使ってGoogleのリポジトリから拾ってくる方法もありますが、今回はWebサービスのGrepCodeを利用してみます。
 
-<a href="http://grepcode.com/" class="broken_link">GrepCode</a>にアクセスして、検索したいクラスを入力します。（今回の場合はandroid.support.v7.app.ActionBarActivity）
+<a href="https://grepcode.com/" class="broken_link">GrepCode</a>にアクセスして、検索したいクラスを入力します。（今回の場合はandroid.support.v7.app.ActionBarActivity）
 
 ![検索したいクラスを入力](cb0c23581f939230a15e58d59babe95f.jpg)
 

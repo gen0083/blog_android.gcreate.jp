@@ -47,7 +47,7 @@ IntelliJ Platform Plugin SDKを追加するには、プラグインを作るに�
 
 プラグインを作成する際に、AndroidでいうminSdkVersionのような指定がIntellij pluginにもあります。（私の場合`<idea-version since-build="141.0"/>`と指定しました）
 
-このバージョンはIntelliJ14.1を意味するので（参考：<a href="http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html">Build Number Ranges</a>）、実際にコーディングする最新のIntelliJとは別に14.1.6をダウンロードしてインストールしました。
+このバージョンはIntelliJ14.1を意味するので（参考：<a href="https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html">Build Number Ranges</a>）、実際にコーディングする最新のIntelliJとは別に14.1.6をダウンロードしてインストールしました。
 
 <a href="https://confluence.jetbrains.com/display/IntelliJIDEA/Previous+IntelliJ+IDEA+Releases">Previous IntelliJ IDEA Releases</a>
 
@@ -63,7 +63,7 @@ IntelliJ Platform Plugin SDKを追加するには、プラグインを作るに�
 
 このプラグインはKotlinとGradleを使って作りました。既にやってくださっている方がいらしたので非常に助かりました。
 
-<a href="http://qiita.com/droibit/items/a211134d39f57a891479#_reference-abda8687478bf8c278ec">KotlinとGradleで始めるAndroid Studioプラグイン開発</a>
+<a href="https://qiita.com/droibit/items/a211134d39f57a891479#_reference-abda8687478bf8c278ec">KotlinとGradleで始めるAndroid Studioプラグイン開発</a>
 
 Kotlinを使った理由は、そんなに深い理由があるわけではありません。単に直前に作っていたアプリでKotlinを使った開発をしていた影響です。正確にはJDK1.6による開発のため、ラムダ式とか使うのにバックポートライブラリを入れるよりはKotlin使ったほうが楽かなとか、Javaで書いたときにセミコロンつけるのが面倒くさかったとか、そんな感じです。
 
@@ -88,11 +88,11 @@ Gradleを使ったのは、依存関係の処理に困ったからです。jar�
 
 参考にさせていただいた方々に感謝を。
 
-<a href="http://qiita.com/konifar/items/c6e23921ffec475907fc">初めてのAndroid Studioプラグイン開発入門</a>
+<a href="https://qiita.com/konifar/items/c6e23921ffec475907fc">初めてのAndroid Studioプラグイン開発入門</a>
 
-<a href="http://qiita.com/droibit/items/a211134d39f57a891479#_reference-abda8687478bf8c278ec">KotlinとGradleで始めるAndroid Studioプラグイン開発</a>
+<a href="https://qiita.com/droibit/items/a211134d39f57a891479#_reference-abda8687478bf8c278ec">KotlinとGradleで始めるAndroid Studioプラグイン開発</a>
 
-<a href="http://www.jetbrains.org/intellij/sdk/docs/index.html">IntelliJ Platform SDK Documentation</a>
+<a href="https://www.jetbrains.org/intellij/sdk/docs/index.html">IntelliJ Platform SDK Documentation</a>
 
 <a href="https://bitbucket.org/speedy2222/adbremote-idea-plugin">AdbCommander for Android &#8211; BitBucket</a>
 
