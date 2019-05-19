@@ -3,7 +3,9 @@ title: "Setter,Getterを自動生成する際にフィールド名先頭のmを�
 slug: 105
 date: 2014-10-04
 lastmod: 2014-10-09
-tags: 
+tags:
+    - "Android Studio"
+    - 設定
 ---
 
 Androidのコーディング規約で、非Publicかつ非staticなフィールドは、先頭にmつけるというものがあります。これに従ってコーディングしていくわけですが、そのままだととあることをしようとしたときに困ったことになります。それは、Getter,Setterを自動生成する時です。

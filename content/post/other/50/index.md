@@ -5,6 +5,7 @@ date: 2014-09-05
 lastmod: 2014-09-18
 tags: 
     - Git
+    - "Android Studio"
 ---
 
 Android StudioでGitを利用したバージョン管理ができます。Git以外にもGitHubやSubversionなども使えるのですが、私はGitを使っているのでGitで説明します。

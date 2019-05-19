@@ -3,7 +3,8 @@ title: "1分間タイマー"
 slug: 13
 date: 2014-08-14
 lastmod: 2016-02-05
-tags: 
+tags:
+    - マイアプリ
 ---
 
 ![1分間タイマー](P9052391-Edit-ja.jpg)

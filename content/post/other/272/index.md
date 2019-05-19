@@ -3,7 +3,9 @@ title: "アプリのパフォーマンスを向上させる　GPUオーバード
 slug: 272
 date: 2015-05-06
 lastmod: 2015-05-06
-tags: 
+tags:
+    - Android
+    - debug
 ---
 
 LinearLayoutをネストしすぎたりするなど、Viewの階層を深くするとアプリのパフォーマンスに良くないという話はよく聞くと思います。

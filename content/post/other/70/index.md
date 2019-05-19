@@ -3,7 +3,8 @@ title: "Android Studio 0.8.10がリリースされています"
 slug: 70
 date: 2014-09-12
 lastmod: 2014-09-18
-tags: 
+tags:
+    - "Android Studio"
 ---
 
 Android Studio 0.8.10がCanary Channelでリリースされています。このアップデートにはバグフィクス以外に、新しい機能の実装が含まれています。

@@ -3,7 +3,9 @@ title: "データベースのデバッグ　adb shellでDBの内容を確認す�
 slug: 65
 date: 2014-09-10
 lastmod: 2014-09-18
-tags: 
+tags:
+    - adb
+    - debug
 ---
 
 アプリでデータベースを利用する場合、動作確認のためにその中身を確認したい時があります。
@@ -79,7 +81,7 @@ sqlite> SELECT * from Sample;
 sqlite> 
 ```
 
-私は<a href="http://dotinstall.com/lessons/basic_sqlite">ドットインストール</a>でSQLiteを勉強しました。AndroidのSQLiteは簡易版なので、使えないプロパティとかもあったりしますが、基本的なところはこれでなんとかなると思います。
+私は<a href="https://dotinstall.com/lessons/basic_sqlite">ドットインストール</a>でSQLiteを勉強しました。AndroidのSQLiteは簡易版なので、使えないプロパティとかもあったりしますが、基本的なところはこれでなんとかなると思います。
 
 
 ## 実機の場合はうまくいかない

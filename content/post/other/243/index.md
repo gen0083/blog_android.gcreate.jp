@@ -3,7 +3,8 @@ title: "WatchFaceのサンプルを実行する"
 slug: 243
 date: 2015-04-11
 lastmod: 2015-04-11
-tags: 
+tags:
+    - wear
 ---
 
 Android Wearでウォッチフェイスを自作するためには、<a href="https://developer.android.com/training/wearables/watch-faces/index.html">Creating Watch Faces &#8211; Android Developers</a>を見て勉強するといいです。

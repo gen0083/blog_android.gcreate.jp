@@ -3,7 +3,10 @@ title: "Wear端末をパソコンに接続し、Android Studioでデバッグで
 slug: 214
 date: 2015-02-16
 lastmod: 2015-02-22
-tags: 
+tags:
+    - "Android Studio"
+    - wear
+    - debug
 ---
 
 せっかくAndroid Wear端末を手に入れたのだから、Wearアプリも作ってみようかなと思いましたが、Wear端末をAndroid Studioに認識させるのも一苦労です。
@@ -92,7 +95,7 @@ USB経由でも転送されるのにラグを感じますが、Bluetoothより�
 
 <a href="https://developer.android.com/training/wearables/apps/bt-debugging.html">Android Developers &#8211; Debugging over Bluetooth</a>
 
-<a href="http://qiita.com/tnj/items/83c41872125f01588068">Qiita &#8211; 15分ではじめるAndroid Wear開発 &#8211; 実機を使った開発環境の作り方</a>
+<a href="https://qiita.com/tnj/items/83c41872125f01588068">Qiita &#8211; 15分ではじめるAndroid Wear開発 &#8211; 実機を使った開発環境の作り方</a>
 
 
   

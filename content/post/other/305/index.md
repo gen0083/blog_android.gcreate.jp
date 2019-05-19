@@ -3,7 +3,9 @@ title: "jarファイルで配布されているライブラリをAndroid Studio�
 slug: 305
 date: 2016-01-23
 lastmod: 2016-01-23
-tags: 
+tags:
+    - "Android Studio"
+    - ライブラリ
 ---
 
 Android StudioはビルドツールにGradleを使っているので、ライブラリはbuild.gradleのdependenciesに書くことで簡単に取り込むことが出来ます。

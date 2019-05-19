@@ -3,7 +3,8 @@ title: "Android Studioでテスト用のディレクトリ名を確認する方�
 slug: 114
 date: 2014-10-10
 lastmod: 2014-10-10
-tags: 
+tags:
+    - "Android Studio"
 ---
 
 テストコードを配置するディレクトリ名は、以前はinstrumentalTestという名前でした。しかし現在ではandroidTestという名前になっています。

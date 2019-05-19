@@ -3,7 +3,9 @@ title: "Android StudioでButterKnifeを使う"
 slug: 187
 date: 2015-02-01
 lastmod: 2015-02-01
-tags: 
+tags:
+    - "Android Studio"
+    - ライブラリ
 ---
 
 ButterKnifeはViewのインジェクションに特化したライブラリです。

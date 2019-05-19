@@ -3,7 +3,9 @@ title: "Android StudioでJDKのパスを指定する"
 slug: 129
 date: 2014-10-26
 lastmod: 2014-10-26
-tags: 
+tags:
+    - "Android Studio"
+    - 設定
 ---
 
 久しぶりにAndroid Studioでサンプルアプリを作ろうとしたら、JDK7を使えと怒られてしまいました。
@@ -30,7 +32,7 @@ JDKは1.8をインストールしていたはず・・・と思って確認す�
 
 ![JDK7を使えというエラーメッセージ](78e492b39af42453b37a588220b6bfa0.jpg)
 
-ちなみに、JDK7は<a href="http://www.oracle.com/technetwork/jp/java/javase/downloads/jdk7-downloads-1880260.html">Oracleのサイト</a>からダウンロードできます。
+ちなみに、JDK7は<a href="https://www.oracle.com/technetwork/jp/java/javase/downloads/jdk7-downloads-1880260.html">Oracleのサイト</a>からダウンロードできます。
 
 
   

@@ -3,7 +3,9 @@ title: "Android Wearアプリ開発にエミュレータを利用する"
 slug: 220
 date: 2015-02-22
 lastmod: 2015-02-22
-tags: 
+tags:
+    - wear
+    - debug
 ---
 
 Android Wearアプリを開発する際にエミュレータを利用する場合の話です。

@@ -5,6 +5,7 @@ date: 2014-09-26
 lastmod: 2014-10-09
 tags: 
     - ショートカット
+    - "Android Studio"
 ---
 
 Android Studioでコーディングしている時に、何らかのメソッドを叩くと引数の一覧が表示されます。

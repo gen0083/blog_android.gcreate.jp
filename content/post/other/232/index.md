@@ -3,7 +3,9 @@ title: "Android Studioでソースコードを読むのに覚えておくと便�
 slug: 232
 date: 2015-03-06
 lastmod: 2015-03-06
-tags: 
+tags:
+    - "Android Studio"
+    - ショートカット
 ---
 
 最近になってようやくサンプルなどのソースコードを読むようになったのですが、「あ、こんな便利な機能あったのね」というのを紹介します。
@@ -62,7 +64,7 @@ Navigate > Declaration
 
 親クラスで定義されてるメソッドを呼んでる時に、そのソースコードに飛ぶときに使ってます。例えば何気なく使ってる`findViewById()`はいったい何やってんだって調べたりする感じです。Cmdキー押しながらクリックするだけなんで、ショートカットキー覚えてなくても行けそうな気はします。
 
-Android Support Libraryのクラスだとソースコードまで付属してないのでそのままでは見れないんですけどね（<a href="http://vcs.hatenablog.com/entry/android-app/support-library-sources-on-android-studio">見れないわけではないようです</a>）。
+Android Support Libraryのクラスだとソースコードまで付属してないのでそのままでは見れないんですけどね（<a href="https://vcs.hatenablog.com/entry/android-app/support-library-sources-on-android-studio">見れないわけではないようです</a>）。
 
 Android標準のクラスならソースコードもインストールしてあれば確認することができます。Android SDK ManagerでSources for Android SDKをインストールしておく必要がありますが、開発する上ではないと困ると思うのでインストールしておいた方がいいでしょう。
 

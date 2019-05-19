@@ -3,7 +3,9 @@ title: "GitHubで公開されているプロジェクトをAndroid Studioで開�
 slug: 212
 date: 2015-02-16
 lastmod: 2015-02-16
-tags: 
+tags:
+    - "Android Studio"
+    - Git
 ---
 
 GitHubで公開されているサンプルやライブラリプロジェクトをローカルに拾ってきて、そのプロジェクトをAndroid Studioで開く方法についてです。

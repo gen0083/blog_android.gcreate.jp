@@ -5,6 +5,7 @@ date: 2014-09-16
 lastmod: 2014-09-20
 tags: 
     - プラグイン
+    - "Android Studio"
 ---
 
 アプリ開発をしていてバカにならないのが、デバッグにかける時間です。頻繁にエミュレータを起動して動作確認を行うわけですが、デフォルトのエミュレータ（Android SDKのエミュレータ）はとにかく起動が遅いです。さらに動作ももっさりしていて、お世辞にも動作確認しやすいとはいえません。
@@ -19,7 +20,7 @@ tags:
 ## Genymotionをインストールする
 
 
-<a href="http://www.genymotion.com/">Genymotion</a>を利用するためには、ユーザー登録が必要になります。
+<a href="https://www.genymotion.com/">Genymotion</a>を利用するためには、ユーザー登録が必要になります。
 
 また、エミュレータを動かすために別途<a href="https://www.virtualbox.org/">Virtual Box</a>が必要になります。
 

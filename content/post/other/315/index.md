@@ -3,7 +3,9 @@ title: "画面をタッチして線を描く　お絵かきアプリを作るた
 slug: 315
 date: 2016-02-13
 lastmod: 2016-02-13
-tags: 
+tags:
+    - Android
+    - UI
 ---
 
 今回の記事のサンプルコードは、<a href="https://github.com/gen0083/LinePaint">GitHub</a>で公開しています。

@@ -3,7 +3,9 @@ title: "取り込んだライブラリがapklibとなってうまく参照でき
 slug: 35
 date: 2014-09-04
 lastmod: 2014-09-18
-tags: 
+tags:
+    - "Android Studio"
+    - help
 ---
 
 build.gradleのdependancieesに取り込むライブラリを記述して、目的のライブラリをダウンロードしてきてくれはしたものの、External Librariesで確認すると.apklibという拡張子になっていて、ライブラリの中身が参照できないということがあります。

@@ -3,10 +3,11 @@ title: "Android Studioで新規プロジェクト作成時のテンプレート�
 slug: 175
 date: 2015-01-10
 lastmod: 2015-01-18
-tags: 
+tags:
+    - "Android Studio"
 ---
 
-<a href="http://qiita.com/kgmyshin/items/9c803a21451e603531f0">【Android】もっと先へ「加速」したくはないか、少年 〜Project Template編〜</a>を見て、実際に自分でも試してみました。
+<a href="https://qiita.com/kgmyshin/items/9c803a21451e603531f0">【Android】もっと先へ「加速」したくはないか、少年 〜Project Template編〜</a>を見て、実際に自分でも試してみました。
 
 パッケージ構成は<a href="https://github.com/futurice/android-best-practices">Best practices in Android development</a>の通りに再現することにしました。
 
@@ -59,7 +60,7 @@ package ${packageName}.activities;
 
 参考
 
-<a href="http://www.i-programmer.info/projects/215-mobile/6843-custom-projects-in-android-studio.html">Custom Projects In Android Studio</a>
+<a href="https://www.i-programmer.info/projects/215-mobile/6843-custom-projects-in-android-studio.html">Custom Projects In Android Studio</a>
 
 
 ## Android Studioのバージョンアップができない

@@ -3,7 +3,8 @@ title: "Droidkaigi2018アプリにコントリビュートする"
 slug: 427
 date: 2018-01-30
 lastmod: 2018-02-03
-tags: 
+tags:
+    - Android
 ---
 
 去年に引き続き、今年もDroidkaigiアプリにコントリビュートすることができた。

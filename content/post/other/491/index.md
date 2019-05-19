@@ -3,8 +3,9 @@ title: "TouchDelegateを使ってタッチ可能領域を拡張する"
 slug: 491
 date: 2018-07-19
 lastmod: 2018-07-19
-tags: 
-draft: false
+tags:
+    - Android
+    - UI
 ---
 
 Buttonのクリックに反応する範囲を拡張したい時がある。

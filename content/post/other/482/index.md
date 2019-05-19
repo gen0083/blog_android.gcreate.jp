@@ -3,7 +3,9 @@ title: "TextViewに設定したテキスト内のURLに遷移する"
 slug: 482
 date: 2018-06-22
 lastmod: 2018-06-23
-tags: 
+tags:
+    - Android
+    - UI
 ---
 
 TextViewに設定したテキスト内にURLがあった場合に、そのリンクをクリックできるようにしたい。

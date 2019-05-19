@@ -3,7 +3,9 @@ title: "Android StudioでQuick Documentationを活用する"
 slug: 259
 date: 2015-04-28
 lastmod: 2015-04-28
-tags: 
+tags:
+    - "Android Studio"
+    - ショートカット
 ---
 
 Android Studioでコーディングしていて、「このメソッドどういう処理するんだっけ？」と思った時に便利なQUICK DOCUMENTATIONがあります。
