@@ -15,6 +15,7 @@ github = "https://github.com/gen0083"
 showsRSS = true
 profile = "/images/profile.jpg"
 copyright = "copyright gen0083"
+googleAutoAd = true
 
 [frontmatter]
 date = ["date","publishDate", ":fileModTime"]
