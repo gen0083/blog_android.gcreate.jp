@@ -20,7 +20,7 @@ tags:
 ## Genymotionをインストールする
 
 
-<a href="http://www.genymotion.com/">Genymotion</a>を利用するためには、ユーザー登録が必要になります。
+<a href="https://www.genymotion.com/">Genymotion</a>を利用するためには、ユーザー登録が必要になります。
 
 また、エミュレータを動かすために別途<a href="https://www.virtualbox.org/">Virtual Box</a>が必要になります。
 

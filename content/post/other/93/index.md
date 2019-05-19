@@ -10,7 +10,7 @@ tags:
 
 Android StudioにはVimプラグインがあり、これを導入することでVimキーバインドでの入力が可能になります。
 
-私は<a href="http://qiita.com/hachi8833/items/7beeee825c11f7437f54">Vim小学1年生くらいのレベル</a>ですが、そのレベルでもVimを使わない場合と比べてプログラミングが捗るなと思っています。
+私は<a href="https://qiita.com/hachi8833/items/7beeee825c11f7437f54">Vim小学1年生くらいのレベル</a>ですが、そのレベルでもVimを使わない場合と比べてプログラミングが捗るなと思っています。
 
 インストール方法は簡単で、Android StudioのメニューからPreferencesを開き、Pluginsを選択、IdeaVimというプラグインのインストールボタンを押すだけです。
 

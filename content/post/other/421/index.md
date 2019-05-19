@@ -42,7 +42,7 @@ Adaptive Icon非対応の端末用の既存のランチャーアイコンは、F
 
 作成した画像はforegroundとbackgroundそれぞれをSVGでエクスポートして、そのSVGファイルをVector Drawableに変換してAndroid Studioへ持っていった。
 
-Vector Drawableへの変換は<a href="http://a-student.github.io/SvgToVectorDrawableConverter.Web/">このツール</a>を利用した。
+Vector Drawableへの変換は<a href="https://a-student.github.io/SvgToVectorDrawableConverter.Web/">このツール</a>を利用した。
 
 複雑な形状だとうまく変換できないこともあるので、適宜調整が必要だろう。Vector Drawableとしてうまく変換できたとしても、パスデータが複雑すぎるという警告が出ることもある。あまり複雑すぎるのも考えものである。
 

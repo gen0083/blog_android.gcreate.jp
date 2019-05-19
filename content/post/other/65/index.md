@@ -81,7 +81,7 @@ sqlite> SELECT * from Sample;
 sqlite> 
 ```
 
-私は<a href="http://dotinstall.com/lessons/basic_sqlite">ドットインストール</a>でSQLiteを勉強しました。AndroidのSQLiteは簡易版なので、使えないプロパティとかもあったりしますが、基本的なところはこれでなんとかなると思います。
+私は<a href="https://dotinstall.com/lessons/basic_sqlite">ドットインストール</a>でSQLiteを勉強しました。AndroidのSQLiteは簡易版なので、使えないプロパティとかもあったりしますが、基本的なところはこれでなんとかなると思います。
 
 
 ## 実機の場合はうまくいかない

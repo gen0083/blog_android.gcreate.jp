@@ -7,7 +7,7 @@ tags:
     - "Android Studio"
 ---
 
-<a href="http://qiita.com/kgmyshin/items/9c803a21451e603531f0">【Android】もっと先へ「加速」したくはないか、少年 〜Project Template編〜</a>を見て、実際に自分でも試してみました。
+<a href="https://qiita.com/kgmyshin/items/9c803a21451e603531f0">【Android】もっと先へ「加速」したくはないか、少年 〜Project Template編〜</a>を見て、実際に自分でも試してみました。
 
 パッケージ構成は<a href="https://github.com/futurice/android-best-practices">Best practices in Android development</a>の通りに再現することにしました。
 

@@ -95,7 +95,7 @@ USB経由でも転送されるのにラグを感じますが、Bluetoothより�
 
 <a href="https://developer.android.com/training/wearables/apps/bt-debugging.html">Android Developers &#8211; Debugging over Bluetooth</a>
 
-<a href="http://qiita.com/tnj/items/83c41872125f01588068">Qiita &#8211; 15分ではじめるAndroid Wear開発 &#8211; 実機を使った開発環境の作り方</a>
+<a href="https://qiita.com/tnj/items/83c41872125f01588068">Qiita &#8211; 15分ではじめるAndroid Wear開発 &#8211; 実機を使った開発環境の作り方</a>
 
 
   
