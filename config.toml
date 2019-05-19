@@ -1,7 +1,7 @@
 # TODO: replace to real URL
 baseURL = "https://test-android.gcreate.jp/"
 languageCode = "ja"
-title = "Android Studioでいこう"
+title = "Genのプログラム日誌"
 theme = "angels-ladder"
 
 [permalinks]
