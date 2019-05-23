@@ -19,3 +19,7 @@ googleAutoAd = true
 [frontmatter]
 date = ["date","publishDate", ":fileModTime"]
 lastmod = ["lastmod", ":fileModTime", "date"]
+
+[blackfriday]
+    extensions = ["hardLineBreak"]
+
