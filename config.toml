@@ -5,6 +5,7 @@ theme = "angels-ladder"
 
 [permalinks]
     post = "/:slug/"
+    forsite = "/forsite/:filename/"
 
 [params]
 dateFormat = "2006-01-02"
