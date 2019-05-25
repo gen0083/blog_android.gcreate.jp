@@ -5,6 +5,18 @@
         {{ with .Site.Params.profile }}<img src="{{ . }}" width="64" height="64"><br>{{ end }}
         {{ .Site.Params.copyright }}
     </div>
+    <div class="site-footer">
+        <div class="fixed-footer">
+            <p><a href="{{.Site.BaseURL}}">HOME</a></p>
+            {{- $pages := .GetPage "forsite" -}}
+            {{- range $pages.Pages -}}
+                <p><a href="{{.Permalink}}">{{.Title}}</a></p>
+            {{- end -}}
+        </div>
+        <div class="tags-footer">
+            {{ partial "tag_clouds.html" . }}
+        </div>
+    </div>
 </footer>
 
 

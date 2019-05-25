@@ -5,6 +5,7 @@ theme = "angels-ladder"
 
 [permalinks]
     post = "/:slug/"
+    forsite = "/forsite/:filename/"
 
 [params]
 dateFormat = "2006-01-02"
@@ -23,3 +24,5 @@ lastmod = ["lastmod", ":fileModTime", "date"]
 [blackfriday]
     extensions = ["hardLineBreak"]
 
+[taxonomies]
+  tag = "tags"
