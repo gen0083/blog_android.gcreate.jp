@@ -24,3 +24,5 @@ lastmod = ["lastmod", ":fileModTime", "date"]
 [blackfriday]
     extensions = ["hardLineBreak"]
 
+[taxonomies]
+  tag = "tags"

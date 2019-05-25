@@ -1,0 +1,46 @@
+$accent_color: #F50057;
+
+
+footer {
+  margin: 40px 0 0 !important;
+  padding: 0 !important;
+
+  .site-footer {
+    color: white;
+    background-color: #666666;
+    margin-top: 18px;
+    padding: 18px;
+
+    .fixed-footer {
+      display: flex;
+      flex-flow: row wrap;
+
+      p {
+        margin: 0 16px;
+
+        a {
+          display: block;
+          padding: 8px;
+        }
+      }
+    }
+  }
+
+  .mdc-chip {
+    background-color: $accent_color;
+
+    &:hover {
+      background-color: lighten($accent_color, 20%);
+    }
+  }
+
+  a {
+    color: white;
+
+    &:hover {
+      color: white;
+      text-underline: none;
+    }
+  }
+}
+
