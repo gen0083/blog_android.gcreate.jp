@@ -9,6 +9,7 @@
         {{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} | {{ .Site.Title }}{{ end }}
     </title>
 
+    <link rel="shortcut icon" href="{{.Site.BaseURL}}/images/favicon.ico">
 
     <!-- Mobile Specific Metas
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
