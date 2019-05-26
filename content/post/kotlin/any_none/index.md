@@ -29,6 +29,6 @@ tags:
 `none`はその反対で、判定式に合致するものが存在しない場合に`true`を返す。
 <https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/none.html>
 
-<iframe src="https://pl.kotl.in/C8vUviYmz?theme=darcula"></iframe>
+<iframe src="https://pl.kotl.in/HSwN_SuD9?theme=darcula"></iframe>
 
 配列やListなどの要素に対して、特定の条件式を用いて判定を行う際に便利な関数である。
