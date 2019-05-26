@@ -1,5 +1,11 @@
 $accent_color: #F50057;
 
+body {
+  word-break: keep-all;
+  line-break: strict;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
 
 footer {
   margin: 40px 0 0 !important;
