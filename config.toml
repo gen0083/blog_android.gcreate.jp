@@ -2,6 +2,23 @@ baseURL = "https://android.gcreate.jp/"
 languageCode = "ja"
 title = "Genのプログラム日誌"
 theme = "angels-ladder"
+googleAnalytics = "UA-43849068-5"
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
 
 [permalinks]
     post = "/:slug/"
