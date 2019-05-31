@@ -3,6 +3,7 @@ languageCode = "ja"
 title = "Genのプログラム日誌"
 theme = "angels-ladder"
 googleAnalytics = "UA-43849068-5"
+rssLimit = 10
 
 [privacy]
   [privacy.disqus]
@@ -45,3 +46,7 @@ lastmod = ["lastmod", ":fileModTime", "date"]
 
 [taxonomies]
   tag = "tags"
+
+[outputFormats]
+  [outputFormats.RSS]
+    baseName = "rss"
