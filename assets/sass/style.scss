@@ -9,6 +9,13 @@ body {
   line-height: 1.6em;
 }
 
+iframe {
+  max-width: 100%;
+  width: 90%;
+  margin: 1em auto;
+  display: block;
+}
+
 footer {
   margin: 40px 0 0 !important;
   padding: 0 !important;
