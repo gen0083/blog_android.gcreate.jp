@@ -1,0 +1,9 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <option name="DO_NOT_FORMAT">
+      <list>
+        <fileSet type="namedScope" name="do_not_format_xml_under_layouts" pattern="!file[android]:layouts//*.xml" />
+      </list>
+    </option>
+  </code_scheme>
+</component>
