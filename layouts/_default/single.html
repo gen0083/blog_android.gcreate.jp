@@ -38,13 +38,13 @@
     </main>
 
     <nav class="pagination-single">
-        {{ if .NextPage }}
-            <span class="previous">&larr; <a href="{{ .NextPage.Permalink }}"
-                                             rel="prev">{{ .NextPage.Title }}</a></span>
+        {{ with .NextInSection }}
+            <span class="previous">&larr; <a href="{{ .Permalink }}"
+                                             rel="prev">{{ .Title }}</a></span>
         {{ end }}
-        {{ if .PrevPage }}
-            <span class="next"><a href="{{ .PrevPage.Permalink }}"
-                                  rel="next">{{ .PrevPage.Title }}</a> &rarr;</span>
+        {{ with .PrevInSection }}
+            <span class="next"><a href="{{ .Permalink }}"
+                                  rel="next">{{ .Title }}</a> &rarr;</span>
         {{ end }}
     </nav>
 
