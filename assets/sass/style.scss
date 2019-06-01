@@ -1,8 +1,7 @@
+$primary_color: #29abe2;
 $accent_color: #F50057;
 
 body {
-  word-break: keep-all;
-  line-break: strict;
   word-wrap: break-word;
   overflow-wrap: break-word;
   font-size: 1em;
@@ -26,6 +25,11 @@ footer {
     margin-top: 18px;
     padding: 18px;
 
+    a {
+      color: white;
+    }
+
+
     .fixed-footer {
       display: flex;
       flex-flow: row wrap;
@@ -42,21 +46,24 @@ footer {
     }
   }
 
+  .tags-footer {
+  }
+}
+
+.mdc-chip-set {
   .mdc-chip {
-    background-color: $accent_color;
+    background-color: $primary_color;
+    color: white;
 
     &:hover {
       background-color: lighten($accent_color, 20%);
     }
   }
-
   a {
-    color: white;
+    text-decoration: none;
 
     &:hover {
-      color: white;
-      text-underline: none;
+      text-decoration: none;
     }
   }
 }
-

@@ -10,11 +10,13 @@
             {{- with .Params.tags -}}
                 <div class="mdc-chip-set">
                     {{ range . }}
-                        <div class="mdc-chip">
-                            <div class="mdc-chip__text">
-                                <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+                        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
+                            <div class="mdc-chip">
+                                <div class="mdc-chip__text">
+                                    {{ . }}
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     {{ end }}
                 </div>
             {{- end -}}
