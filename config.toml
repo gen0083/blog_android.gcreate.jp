@@ -39,6 +39,7 @@ twitter = "https://twitter.com/gen0083"
 github = "https://github.com/gen0083"
 showsRSS = true
 profile = "/images/profile.jpg"
+workstatus = "お仕事募集中"
 copyright = "copyright gen0083"
 googleAutoAd = true
   images = ["images/site-cover.jpg"]
