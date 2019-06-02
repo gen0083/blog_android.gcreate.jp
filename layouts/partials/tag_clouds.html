@@ -2,7 +2,7 @@
     {{- range $order, $tag := .Site.Taxonomies.tags.ByCount -}}
         <a href="{{"/tags/" | relLangURL}}{{$tag.Term | urlize}}">
             <div class="mdc-chip">
-                <div class="mdc-chip__tet">
+                <div class="mdc-chip__text">
                     {{$tag.Term}} ({{$tag.Count}})
                 </div>
             </div>
