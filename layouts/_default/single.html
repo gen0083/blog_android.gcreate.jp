@@ -24,20 +24,14 @@
         <article>
             {{ .Content }}
 
-            {{/* ShareThis Buttons */}}
-            {{ with .Site.Params.shareThis }}
-                <div id="share-this" class="col span_10">
-                    <span class='st_twitter_large' displayText='Tweet'></span>
-                    <span class='st_facebook_large' displayText='Facebook'></span>
-                    <span class='st_googleplus_large' displayText='Google +'></span>
-                    <span class='st_pocket_large' displayText='Pocket'></span>
-                    <span class='st_sharethis_large' displayText='ShareThis'></span>
-                    <span class='st_email_large' displayText='Email'></span>
-                </div>
-            {{ end }}
+            <div class="pull_request_with_github">
+                <i class="fab fa-github"></i>
+                <a href="{{.Site.Params.githubBaseUrl}}{{.File.Path}}">記事の内容に修正リクエストを送る</a>
+            </div>
         </article>
-        {{ partial "disqus.html" . }}
     </main>
+
+    {{ partial "amazon_wish_list.html" . }}
 
     <nav class="pagination-single">
         {{ with .NextInSection }}
@@ -49,7 +43,5 @@
                                   rel="next">{{ .Title }}</a> &rarr;</span>
         {{ end }}
     </nav>
-
-    {{ partial "amazon_wish_list.html" . }}
 
 {{ end }}
