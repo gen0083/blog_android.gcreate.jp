@@ -43,6 +43,7 @@ workstatus = "お仕事募集中"
 copyright = "copyright gen0083"
 googleAutoAd = true
   images = ["images/site-cover.jpg"]
+  githubBaseUrl = "https://github.com/gen0083/blog_android.gcreate.jp/tree/master/content/"
 
 [frontmatter]
 date = ["date","publishDate", ":fileModTime"]
