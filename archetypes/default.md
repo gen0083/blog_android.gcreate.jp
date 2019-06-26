@@ -1,5 +1,5 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: ""
 slug: "{{ .Name }}"
 date: {{ .Date }}
 tags:
