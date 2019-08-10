@@ -43,7 +43,7 @@ ZonedDateTimeをアプリケーション内で扱うとして、DBにはその�
 
 私は毎回こんな感じで拡張関数として定義しておく。
 
-```kotlin
+```
 fun ZonedDateTime.toUtcLongMillis(): Long {
     val utcZDT = this.withZoneSameInstant(ZoneOffset.UTC)
         .truncatedTo(ChronoUnit.MILLIS)
