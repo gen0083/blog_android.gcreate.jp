@@ -1,7 +1,7 @@
 ---
 title: "DataBindingは便利"
 slug: "databinding_is_useful"
-date: 2019-08-10T20:58:23+09:00
+date: 2016-06-09T15:31:06+09:00
 tags:
     - Android
     - DataBinding

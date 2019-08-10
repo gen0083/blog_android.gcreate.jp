@@ -1,7 +1,7 @@
 ---
 title: "Google Playの課金周りの処理はよく分からない"
 slug: "about_billing"
-date: 2016-07-1T00:37:00+09:00
+date: 2016-07-01T00:37:00+09:00
 tags:
     - Android
     - ポエム
