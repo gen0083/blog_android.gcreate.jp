@@ -49,8 +49,13 @@ summaryLength = 100
     date = ["date","publishDate", ":fileModTime"]
     lastmod = ["lastmod", ":fileModTime", "date"]
 
-[blackfriday]
-    extensions = ["hardLineBreak"]
+[markup]
+    defaultMarkdownHandler = "goldmark"
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            hardWraps = true
+    [markup.highlight]
+        lineNos = true
 
 [taxonomies]
     tag = "tags"
