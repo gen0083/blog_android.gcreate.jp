@@ -1,5 +1,7 @@
 {
     "rules": {
-        "preset-ja-technical-writing": true
-    }
+        "preset-ja-technical-writing": {
+            "ja-no-weak-phrase": false,
+        }
+    },
 }
