@@ -2,10 +2,15 @@ version: 2.1
 
 jobs:
   build:
-    working_directory: /go/src/github.com/{{ORG_NAME}}/{{REPO_NAME}}
+    working_directory: ~/project/{ORG_NAME}}/{{REPO_NAME}}
     docker:
-      - image: gen0083/circleci-hugo:1.0
+      - image: cimg/go:1.19.2-node
     steps:
+      - run:
+          name: install hugo
+          command: |
+            sudo apt update
+            sudo apt-get install hugo
       - checkout
       - run:
           name: sync submodule
