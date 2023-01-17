@@ -28,15 +28,15 @@ Modifierが難しい。未だに慣れないものの1つが`Modifier.align()`�
 
 だが上2つはシャドウが効いていなくて、下2つはシャドウが効いている。効いていないコードはこうである。
 
-```
-    Column(
-        modifier = Modifier
-            .clip(RoundedCornerShape(8.dp))
-            .shadow(4.dp)
-            .background(Color.White)
-            .padding(8.dp),
-    ) { ...
-```
+{{< highlight Kotlin >}}
+Column(
+    modifier = Modifier
+        .clip(RoundedCornerShape(8.dp))
+        .shadow(4.dp)
+        .background(Color.White)
+        .padding(8.dp),
+) { ...
+{{< /highlight >}}
 
 クリップしてからシャドウつけるとうまく動かない。clipとshadowを入れ替えると　ちゃんと描画されるようになる。
 
