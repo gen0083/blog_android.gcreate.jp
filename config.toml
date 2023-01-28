@@ -2,10 +2,16 @@ baseURL = "https://android.gcreate.jp/"
 languageCode = "ja"
 hasCKLLanguage = true
 title = "Genのプログラム日誌"
-theme = "angels-ladder"
+theme = "hugo-geekblog"
 googleAnalytics = "UA-43849068-5"
 rssLimit = 10
 summaryLength = 100
+
+# Geekblog required configuration
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+disablePathToLower = true
+enableGitInfo = true
 
 [Author]
     name = "gen0083"
@@ -50,12 +56,13 @@ summaryLength = 100
     lastmod = ["lastmod", ":fileModTime", "date"]
 
 [markup]
-    defaultMarkdownHandler = "goldmark"
-    [markup.goldmark]
-        [markup.goldmark.renderer]
-            hardWraps = true
-    [markup.highlight]
-        lineNos = true
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 9
+  [markup.highlight]
+    lineNos = true
 
 [taxonomies]
     tag = "tags"

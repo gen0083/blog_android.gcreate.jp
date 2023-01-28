@@ -1,0 +1,17 @@
+---
+header:
+  - name: Github Profile
+    icon: gblog_github
+    ref: "https://github.com/xoxys"
+    external: true
+
+footer:
+  - name: "管理人について"
+    icon: gblog_person
+    ref: "/forsite/about_me"
+  - name: "このサイトについて"
+    icon: gblog_info_outline
+    ref: "/forsite/about_this_site"
+  - name: "プライバシーポリシー"
+    icon: gblog_security
+    ref: "/forsite/privacy_policy"
