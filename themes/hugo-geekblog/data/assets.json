@@ -1,0 +1,50 @@
+{
+  "main.js": {
+    "src": "js/main-0869bad1.bundle.min.js",
+    "integrity": "sha512-CqMrqddoxGuBlk8Dk/XWxu95ZsodS4VxKXLtwU5HetLQ4oKeM+sD+fxipikgaZqVNHEKO8c0vDl87UrEhUWcrw=="
+  },
+  "colortheme.js": {
+    "src": "js/colortheme-67ebb30b.bundle.min.js",
+    "integrity": "sha512-c8hShOqGimDdxWnkcdvv+ca6+cjrPFRwtFl0cWyERavt7pame1x53D93yMVG6RsP/8LlWz1s9yQaXIU+kRvuBQ=="
+  },
+  "mermaid.js": {
+    "src": "js/mermaid-f08f622e.bundle.min.js",
+    "integrity": "sha512-gytPS/D4Y6yVvYS5e9tTKBkbcz9j+rfIbwBYh32TMCoAlO7sLWPQXntSKnX8X9mr1d6XUIUaCaqBmXY/HK4hxA=="
+  },
+  "katex.js": {
+    "src": "js/katex-48be830c.bundle.min.js",
+    "integrity": "sha512-2hMsat+WR6zFaJAsrXjN4lcsCalJ8PNMtfirxZwn31xolF82i0h4SnHyeYVz+MH5iTsdj3XgskJFAsb2Ez9KxA=="
+  },
+  "js/748-06386f19.chunk.min.js": {
+    "src": "js/748-06386f19.chunk.min.js",
+    "integrity": "sha512-0Rh3DSv9gzM3oyWxFatQVLoJfNt4LpjBJd94elKrtUCGzMbulb0numEufhwlwrzktzORoZ9VnNWWqQotCoN4kw=="
+  },
+  "js/116-9f4de40b.chunk.min.js": {
+    "src": "js/116-9f4de40b.chunk.min.js",
+    "integrity": "sha512-ioR3jSCmh1L3lrpVggwmmuQvUSteAQKnI9W+I6NSXjHEnZWfnByBsPuUHXo+Wa97hl0+v2rrHDQWxm5Z7lFO1g=="
+  },
+  "js/835-3b46b008.chunk.min.js": {
+    "src": "js/835-3b46b008.chunk.min.js",
+    "integrity": "sha512-XlyCKtKf8Us8RxtDN5tNk1DU4H7sqEIkoIcjz0I7zn5z20aBl8Xd7zPxSWCAh0Mxin4DKQtiuXCu4/s0+90YaA=="
+  },
+  "main.scss": {
+    "src": "main-37e1c1e9.min.css",
+    "integrity": "sha512-Xruu1vuskb8xjoxtBnTtTHpM2hEbeOtRmgcuo+aQpgRQAPE/TKBlJF7lUNrWbBJuHMTZhkGcuTrggcwVvT4VfQ=="
+  },
+  "katex.css": {
+    "src": "katex-6c55f6d5.min.css",
+    "integrity": "sha512-XL4wG/st8uUOZWtlek14ZJ4RHzPk7o8Hs83qr1YvniBG24g+LJLaTqgLjf6kq4z60SL5wFwhsh6k4DqGFVeAow=="
+  },
+  "mobile.scss": {
+    "src": "mobile-08d9c9f0.min.css",
+    "integrity": "sha512-7k9DeU4Y6gMu+UXGW1Ho6AODF84yd3xzUcVw20qba+qcurd5FWOQc81vLfw3rjAqjoF68E83MqD2D4PaU+WoPQ=="
+  },
+  "print.scss": {
+    "src": "print-8a905a2e.min.css",
+    "integrity": "sha512-vcWPBuatnFf1XCfqzhsmkFDxa5kAGXnnGHClqo+CL3jA/8RjSGdqDourV6Mg4oZMcDARwZKyBMZNRr4s+M/vqQ=="
+  },
+  "custom.css": {
+    "src": "custom.css",
+    "integrity": "sha512-1kALo+zc1L2u1rvyxPIew+ZDPWhnIA1Ei2rib3eHHbskQW+EMxfI9Ayyva4aV+YRrHvH0zFxvPSFIuZ3mfsbRA=="
+  }
+}
