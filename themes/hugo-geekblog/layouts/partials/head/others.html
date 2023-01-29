@@ -65,7 +65,7 @@
 />
 <link
   rel="stylesheet"
-  href="{{ index (index .Site.Data.assets "custom.css") "src" | relURL }}"
+  href="{{ index (index .Site.Data.assets "custom.css") "src" | absURL }}"
   media="all"
 />
 {{- with .OutputFormats.Get "html" }}

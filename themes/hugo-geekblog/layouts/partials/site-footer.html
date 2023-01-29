@@ -1,4 +1,36 @@
 <footer class="gblog-footer">
+  <nav class="gblog-nav">
+    <input type="checkbox" id="menu-control" class="hidden" />
+    <div class="gblog-nav__control">
+      <label for="menu-control" class="flex align-center justify-center">
+        <svg class="gblog-icon gblog_menu"><use xlink:href="#gblog_menu"></use></svg>
+        <svg class="gblog-icon gblog_clear"><use xlink:href="#gblog_clear"></use></svg>
+        <span>Navigation</span>
+      </label>
+    </div>
+    <ul class="gblog-nav__list container flex flex-wrap justify-center menu-content">
+      {{ $currentPage := .RelPermalink }}
+      {{ if default true .Site.Params.GeekblogTagsToMenu }}
+        {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+          {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+            <li>
+              <a
+                class="gblog-nav__entry{{ if eq $currentPage .RelPermalink }}
+                  {{ printf " %s" "is-active" }}
+                {{ end }}"
+                href="{{ .RelPermalink }}"
+              >
+                {{ partial "utils/title" . }}
+              </a>
+            </li>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ if .Site.Data.menu.extra.header }}
+        {{ partial "menu-extra" (dict "current" . "source" .Site.Data.menu.extra.header "target" "header") }}
+      {{ end }}
+    </ul>
+  
   <nav class="container flex">
     <div>
       <section class="flex flex-wrap align-center">
@@ -25,6 +57,12 @@
       <section class="flex flex-wrap align-center">
         <span class="gblog-footer__item">
           Built with <a href="https://gohugo.io/" class="gblog-footer__link">Hugo</a> and
+          <svg class="gblog-icon gblog_heart"><use xlink:href="#gblog_heart"></use></svg>
+        </span>
+      </section>
+      <section class="flex flex-wrap align-center">
+        <span class="gblog-footer__item">
+          Theme with <a href="https://hugo-geekblog.geekdocs.de/" class="gblog-footer__link">Geekblog</a>
           <svg class="gblog-icon gblog_heart"><use xlink:href="#gblog_heart"></use></svg>
         </span>
       </section>

@@ -29,6 +29,10 @@
     </header>
     <section class="gblog-markdown">
       {{ partial "utils/content" . }}
+      {{ partial "github_pr" . }}
     </section>
+    <footer class="gblog-post__footer">
+      {{ partial "amazon_wish_list" . }}
+    </footer>
   </article>
 {{ end }}
