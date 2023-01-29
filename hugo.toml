@@ -1,0 +1,72 @@
+baseURL = "https://android.gcreate.jp/"
+languageCode = "ja"
+hasCKLLanguage = true
+title = "Genのプログラム日誌"
+theme = "hugo-geekblog"
+googleAnalytics = "UA-43849068-5"
+rssLimit = 10
+summaryLength = 100
+
+# Geekblog required configuration
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+disablePathToLower = true
+enableGitInfo = true
+
+[Author]
+    name = "gen0083"
+    email = "archiherewego@gmail.com"
+
+[privacy]
+    [privacy.disqus]
+        disable = true
+    [privacy.googleAnalytics]
+        anonymizeIP = true
+        disable = false
+        respectDoNotTrack = true
+        useSessionStorage = false
+    [privacy.twitter]
+        disable = false
+        enableDNT = false
+        simple = false
+    [privacy.youtube]
+        disable = false
+        privacyEnhanced = true
+
+[permalinks]
+    post = "/:slug/"
+    forsite = "/forsite/:filename/"
+
+[params]
+    dateFormat = "2006-01-02"
+    subtitle = "主にAndroidについての備忘録"
+    description = "gen0083が運営する技術ブログです。AndroidやKotlinの話題が中心ですが、その他の言語の話題も備忘録として残しています。基本的にはプログラミングに関する話題のみを取り扱っています。"
+    twitter = "https://twitter.com/gen0083"
+    github = "https://github.com/gen0083"
+    showsRSS = true
+    profile = "/images/profile.jpg"
+    workstatus = "ちょっと忙しいですがご相談は受け付けてます"
+    copyright = "copyright gen0083"
+    googleAutoAd = true
+    images = ["images/site-cover.jpg"]
+    githubBaseUrl = "https://github.com/gen0083/blog_android.gcreate.jp/tree/master/content/"
+
+[frontmatter]
+    date = ["date","publishDate", ":fileModTime"]
+    lastmod = ["lastmod", ":fileModTime", "date"]
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 9
+  [markup.highlight]
+    lineNos = true
+
+[taxonomies]
+    tag = "tags"
+
+[outputFormats]
+    [outputFormats.RSS]
+        baseName = "rss"
