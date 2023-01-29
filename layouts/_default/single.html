@@ -1,6 +1,6 @@
 {{ define "main" }}
   <article class="gblog-post">
-    <header class="gblog-post__header post__header">
+    <header class="gblog-post__header">
       {{ $source := ($.Resources.ByType "image").GetMatch "{*feature*,*cover*,*thumbnail*}" }}
       {{ with $source }}
         <div class="gblog-post__feature">
@@ -31,7 +31,7 @@
       {{ partial "utils/content" . }}
       {{ partial "github_pr" . }}
     </section>
-    <footer class="gblog-post__footer post__footer">
+    <footer class="gblog-post__footer">
       {{ partial "amazon_wish_list" . }}
     </footer>
   </article>
