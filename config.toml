@@ -3,7 +3,7 @@ languageCode = "ja"
 hasCKLLanguage = true
 title = "Genのプログラム日誌"
 theme = "hugo-geekblog"
-googleAnalytics = "UA-43849068-5"
+googleAnalytics = "G-N1ZGWDK63M"
 rssLimit = 10
 summaryLength = 100
 
