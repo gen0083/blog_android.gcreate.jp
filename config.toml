@@ -25,7 +25,7 @@ enableGitInfo = true
         disable = false
         respectDoNotTrack = true
         useSessionStorage = false
-    [privacy.twitter]
+    [privacy.x]
         disable = false
         enableDNT = false
         simple = false
@@ -41,7 +41,7 @@ enableGitInfo = true
     dateFormat = "2006-01-02"
     subtitle = "主にAndroidについての備忘録"
     description = "gen0083が運営する技術ブログです。AndroidやKotlinの話題が中心ですが、その他の言語の話題も備忘録として残しています。基本的にはプログラミングに関する話題のみを取り扱っています。"
-    twitter = "https://twitter.com/gen0083"
+    x = "https://twitter.com/gen0083"
     github = "https://github.com/gen0083"
     showsRSS = true
     profile = "/images/profile.jpg"
