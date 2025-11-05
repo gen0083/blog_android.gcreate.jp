@@ -1,6 +1,6 @@
 {{ define "main" }}
   <article class="gblog-post">
-    <header class="gblog-post__header post__header">
+    <header class="gblog-post__header">
       {{ $source := ($.Resources.ByType "image").GetMatch "{*feature*,*cover*,*thumbnail*}" }}
       {{ with $source }}
         <div class="gblog-post__feature">
@@ -21,7 +21,7 @@
 
       <h1 class="gblog-post__title">{{ partial "utils/title" . }}</h1>
 
-      {{ if or (eq .Type (default "posts" .Site.Params.GeekblogContentSection)) (eq .Type "post") }}
+      {{ if or (eq .Type (default "posts" .Site.Params.geekblogContentSection)) (eq .Type "post") }}
         <div class="flex flex-wrap align-center gblog-post__meta gblog-post__meta--head">
           {{ partial "metadata.html" . }}
         </div>
@@ -29,10 +29,6 @@
     </header>
     <section class="gblog-markdown">
       {{ partial "utils/content" . }}
-      {{ partial "github_pr" . }}
     </section>
-    <footer class="gblog-post__footer post__footer">
-      {{ partial "amazon_wish_list" . }}
-    </footer>
   </article>
 {{ end }}
