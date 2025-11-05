@@ -1,4 +1,4 @@
-{{- if default true .Site.Params.GeekblogDarkModeToggle }}
+{{- if default true .Site.Params.geekblogDarkModeToggle }}
   <script src="{{ index (index .Site.Data.assets "colortheme.js") "src" | relURL }}"></script>
 {{- end }}
 <script src="{{ index (index .Site.Data.assets "main.js") "src" | relURL }}"></script>
@@ -65,7 +65,7 @@
 />
 <link
   rel="stylesheet"
-  href="{{ index (index .Site.Data.assets "custom.css") "src" | absURL }}"
+  href="{{ index (index .Site.Data.assets "custom.css") "src" | relURL }}"
   media="all"
 />
 {{- with .OutputFormats.Get "html" }}
@@ -78,8 +78,8 @@
   {{- end }}
 {{- end }}
 
-{{- if (default false $.Site.Params.GeekblogOverwriteHTMLBase) }}
-  <base href="{{ .Site.BaseURL }}" />
+{{- if (default false $.Site.Params.geekblogOverwriteHTMLBase) }}
+  <base href="{{ .Site.Home.Permalink }}" />
 {{- end }}
 
 {{ printf "<!-- %s -->" "Made with Geekblog theme https://github.com/thegeeklab/hugo-geekblog" | safeHTML }}

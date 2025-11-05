@@ -2,9 +2,9 @@
 <html
   itemscope
   itemtype="http://schema.org/WebPage"
-  lang="{{ .Site.LanguageCode }}"
+  lang="{{ .Site.Language.Lang }}"
   class="color-toggle-hidden"
-  {{ if default false .Site.Params.GeekblogDarkModeCode }}code-theme="dark"{{ end }}
+  {{ if default false .Site.Params.geekblogDarkModeCode }}code-theme="dark"{{ end }}
 >
   <head>
     {{ partial "head/meta" . }}
@@ -28,7 +28,7 @@
 
 
     <div
-      class="wrapper {{ if default false .Site.Params.GeekblogDarkModeDim }}dark-mode-dim{{ end }}"
+      class="wrapper {{ if default false .Site.Params.geekblogDarkModeDim }}dark-mode-dim{{ end }}"
     >
       {{ partial "site-header" . }}
 

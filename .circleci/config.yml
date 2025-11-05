@@ -2,15 +2,21 @@ version: 2.1
 
 jobs:
   build:
-    working_directory: ~/project/{ORG_NAME}}/{{REPO_NAME}}
+    working_directory: ~/project/{{ORG_NAME}}/{{REPO_NAME}}
     docker:
-      - image: cimg/go:1.19.2-node
+      - image: cimg/go:1.24.9-node
     steps:
       - run:
           name: install hugo
           command: |
             sudo apt update
-            sudo apt-get install hugo
+            mkdir ~/project/hugo
+            cd ~/project/hugo
+            wget https://github.com/gohugoio/hugo/releases/download/v0.152.2/hugo_0.152.2_linux-amd64.deb
+            sudo dpkg -i hugo_0.152.2_linux-amd64.deb
+            hugo version
+            pwd
+            cd ~/project/{{ORG_NAME}}/{{REPO_NAME}}
       - checkout
       - run:
           name: sync submodule
